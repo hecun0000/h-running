@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.top-nav {
+    height: 40px;
+}
+
+
+
+.r-main {
+    flex: 1;
+    display: flex;
+   justify-content: space-between;
+
+}
+
+.r-main > div {
+    flex: 1;
+}
+#container {
+    height: 100%;
+}
+
+/* 动态展示组件样式 */
+.display-container {
+    margin: 8px
+}
+
+.display-box {
+    border:1px solid #999;
+    height: 100%;
+}
