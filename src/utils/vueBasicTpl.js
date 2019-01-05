@@ -21,14 +21,8 @@ const tpl = `<template>
     }
   }
 </script>
-<style lang="scss" type="text/css">
+<style>
 
-.test {
-    color:red;
-    .btn {
-        border:1px solid;
-    }
-}
 </style>`;
 
 exports.tpl = tpl

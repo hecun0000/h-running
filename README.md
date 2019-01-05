@@ -1,4 +1,6 @@
-# h-run
+# h-running    
+
+目前已经支持使用elementUI相关组件 
 
 ## Project setup
 ```
