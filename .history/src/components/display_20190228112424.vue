@@ -7,12 +7,12 @@
 <script>
 import Vue from 'vue'
 import rounderStr from '../utils/roundStr.js'
-
+import { tpl } from "../utils/vueBasicTpl.js";
 export default {
   props: {
     code: {
       type: String,
-      default: ""
+      default: tpl
     }
   },
   data() {

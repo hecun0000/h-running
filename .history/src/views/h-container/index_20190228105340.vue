@@ -16,7 +16,6 @@
 <script>
 import editor from "../../components/editor";
 import display from "../../components/display";
-import { tpl } from "@/utils/vueBasicTpl.js";
 export default {
   components: {
     editor,
@@ -24,7 +23,7 @@ export default {
   },
   data() {
     return {
-      code: tpl
+      code: ""
     };
   },
   methods: {

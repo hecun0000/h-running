@@ -7,7 +7,6 @@
 <script>
 import Vue from 'vue'
 import rounderStr from '../utils/roundStr.js'
-
 export default {
   props: {
     code: {
@@ -83,8 +82,6 @@ export default {
       );
     },
     splitCode() {
-        console.log(this.code,'========code=========');
-        
       const script = this.getSource(this.code, "script").replace(
         /export default/,
         "return "

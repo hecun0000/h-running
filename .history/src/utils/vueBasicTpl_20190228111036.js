@@ -1,6 +1,7 @@
 const tpl = `<template>
   <div class="demo">
     <p class='info'>本模板已经支持elementUI</p>
+
     <el-button type="primary" class="btn" size=small>开始吧！</el-button>
   </div>
 </template>

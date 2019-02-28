@@ -7,7 +7,6 @@
 <script>
 import Vue from 'vue'
 import rounderStr from '../utils/roundStr.js'
-
 export default {
   props: {
     code: {

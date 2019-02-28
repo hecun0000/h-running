@@ -15,16 +15,15 @@
 .top-nav {
     height: 40px;
     padding: 0 15px;
-    border-bottom: 1px solid #eaecef;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+        border-bottom: 1px solid #eaecef;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
 }
 
 .logo {
-    font-size: 20px;
-    font-style: italic;
+    font-size: 24px;
     color: #42b983;
     line-height: 40px
 }
@@ -49,11 +48,10 @@
 /* 动态展示组件样式 */
 .display-container {
     margin: 8px;
-    margin-top: 0;
-    border: 1px solid #eaecef;
+    margin-top: 0
 }
 
 .display-box {
-
+    border: 1px solid #999;
     height: 100%;
 }
